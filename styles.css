@@ -55,8 +55,31 @@ input {
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: 1s;
+    transition: 1.5s;
+    text-align: left;
 }
 .file input:checked + label + .content {
-    max-height: 400px;
+    max-height: 2000px;
+}
+.container {
+    background-color: #B2B2B2;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.marginbottom {
+    height: 20px;
+    background-color: #F7F7F7;
 }
